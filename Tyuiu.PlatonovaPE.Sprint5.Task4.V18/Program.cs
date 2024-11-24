@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-using Tyuiu.PlatonovaPE.Sprint5.Task4.V18.Lib;
+﻿using Tyuiu.PlatonovaPE.Sprint5.Task4.V18.Lib;
 
 namespace Tyuiu.PlatonovaPE.Sprint5.Task4.V18
 {
@@ -36,7 +29,7 @@ namespace Tyuiu.PlatonovaPE.Sprint5.Task4.V18
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            string path = $@"L:\Проги\DataSprint5\InPutDataFileTask4V18.txt";
+            string path = $@"C:\Users\parse\source\repos\Tyuiu.PlatonovaPE.Sprint5\Tyuiu.PlatonovaPE.Sprint5.Task4.V18\bin\Debug\net8.0\OutPutFileTask4.txt";
             Console.WriteLine("Данные находятся в файле: " + path);
 
             Console.WriteLine("***************************************************************************");
