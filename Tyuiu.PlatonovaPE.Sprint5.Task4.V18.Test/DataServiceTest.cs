@@ -12,7 +12,7 @@ namespace Tyuiu.PlatonovaPE.Sprint5.Task4.V18.Test
         [TestMethod]
         public void CheckLoadFromDataFile()
         {
-            string path = @"C:\Users\parse\source\repos\Tyuiu.PlatonovaPE.Sprint5\Tyuiu.PlatonovaPE.Sprint5.Task4.V18\bin\Debug\net8.0\OutPutFileTask4.txt";
+            string path = @"C:\Users\parse\source\repos\Tyuiu.PlatonovaPE.Sprint5\Tyuiu.PlatonovaPE.Sprint5.Task4.V18\bin\Debug\net8.0\InPutDataFileTask4V18.txt";
 
             FileInfo fileInfo = new FileInfo(path);
             bool fileExists = fileInfo.Exists;
